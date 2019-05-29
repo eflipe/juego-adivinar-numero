@@ -1,6 +1,5 @@
 import random
 
-
 def randomNumberGenerator():
     """
     Create a random number of four unique digits.
