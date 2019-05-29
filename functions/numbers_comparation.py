@@ -18,9 +18,7 @@ def numbersComparation(humanNumber, machineNumber):
 
     humanNumber = str(humanNumber)
 
-
     humanNumber = [int(number) for number in humanNumber]
-
 
     for numberH in range(len(humanNumber)):
 
@@ -32,6 +30,7 @@ def numbersComparation(humanNumber, machineNumber):
 
             elif humanNumber[numberH] == machineNumber[numberM]:
               regular += 1
+
     sum = regular + good
 
     return regular, good, sum, number
@@ -47,22 +46,17 @@ def combinationsFunction(machineNumber, combinations):
     if combinations == 2:
         machineNumber[2], machineNumber[3] = machineNumber[3], machineNumber[2]
 
-
     elif combinations == 3:
         machineNumber[1], machineNumber[2] = machineNumber[2], machineNumber[1]
-
 
     elif combinations == 4:
         machineNumber[2], machineNumber[3] = machineNumber[3], machineNumber[2]
 
-
     elif combinations == 5:
         machineNumber[1], machineNumber[2] = machineNumber[2], machineNumber[1]
 
-
     elif combinations == 6:
         machineNumber[2], machineNumber[3] = machineNumber[3], machineNumber[2]
-
 
     elif combinations == 7:
 
@@ -71,70 +65,53 @@ def combinationsFunction(machineNumber, combinations):
     elif combinations == 8:
         machineNumber[0], machineNumber[1] = machineNumber[1], machineNumber[0]
 
-
     elif combinations == 9:
         machineNumber[2], machineNumber[3] = machineNumber[3], machineNumber[2]
-
 
     elif combinations == 10:
         machineNumber[1], machineNumber[2] = machineNumber[2], machineNumber[1]
 
-
     elif combinations == 11:
         machineNumber[2], machineNumber[3] = machineNumber[3], machineNumber[2]
-
 
     elif combinations == 12:
         machineNumber[1], machineNumber[2] = machineNumber[2], machineNumber[1]
 
-
     elif combinations == 13:
         machineNumber[2], machineNumber[3] = machineNumber[3], machineNumber[2]
-
 
     elif combinations == 14:
         machineNumber[0], machineNumber[1] = machineNumber[1], machineNumber[0]
 
-
     elif combinations == 15:
         machineNumber[2], machineNumber[3] = machineNumber[3], machineNumber[2]
-
 
     elif combinations == 16:
         machineNumber[1], machineNumber[2] = machineNumber[2], machineNumber[1]
 
-
     elif combinations == 17:
         machineNumber[2], machineNumber[3] = machineNumber[3], machineNumber[2]
-
 
     elif combinations == 18:
         machineNumber[1], machineNumber[2] = machineNumber[2], machineNumber[1]
 
-
     elif combinations == 19:
         machineNumber[2], machineNumber[3] = machineNumber[3], machineNumber[2]
-
 
     elif combinations == 20:
         machineNumber[0], machineNumber[3] = machineNumber[3], machineNumber[0]
 
-
     elif combinations == 21:
         machineNumber[2], machineNumber[3] = machineNumber[3], machineNumber[2]
-
 
     elif combinations == 22:
         machineNumber[1], machineNumber[2] = machineNumber[2], machineNumber[1]
 
-
     elif combinations == 23:
         machineNumber[2], machineNumber[3] = machineNumber[3], machineNumber[2]
 
-
     elif combinations == 24:
         machineNumber[1], machineNumber[2] = machineNumber[2], machineNumber[1]
-
 
     elif combinations == 25:
         machineNumber[2], machineNumber[3] = machineNumber[3], machineNumber[2]
