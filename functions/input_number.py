@@ -1,6 +1,5 @@
 def inputNumber(prompt = "Please, enter a four-digit number: >>> "):
-    """
-       Ask for a specific data.
+    """Ask for a specific data.
      """
 
     user_input = input(prompt)
