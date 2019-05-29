@@ -11,7 +11,6 @@ def machinePlay(humanNumber):
 
     """
 
-
     attempts = 0
     regular = 0
     good = 0
