@@ -3,7 +3,6 @@ from functions.numbers_generator import randomNumberGenerator, humanFriendly
 from functions.numbers_comparation import numbersComparation
 
 
-
 def humanPlay(humanNumber, machineNumber):
     """ Compare the typed number with the random number.
         Define when the game is over.
