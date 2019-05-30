@@ -7,6 +7,10 @@ class TestNumbersComparation(unittest.TestCase):
         """
         Test numbers comparation.
         """
+
+        print("\nStart test_numbers_comparation test\n")
+        print("Testing different numbers that produce different outputs.\n")
+
         number_1 = 8951
         number_2 = [1,9,5,8]
         number_3 = 8951
@@ -20,3 +24,6 @@ class TestNumbersComparation(unittest.TestCase):
         print("R: ", result_1[0], "G:", result_1[1], "Sum:", result_1[2], "Partial Number: ", result_1[3])
         print("R: ", result_2[0], "G:", result_2[1], "Sum:", result_2[2], "Partial Number: ", result_2[3])
         print("R: ", result_3[0], "G:", result_3[1], "Sum:", result_3[2], "Partial Number: ", result_3[3])
+
+        print("\nFinish test_numbers_comparation test\n")
+        print("---------------------------\n")

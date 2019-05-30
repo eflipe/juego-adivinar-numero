@@ -7,6 +7,11 @@ class TestMachinePlay(unittest.TestCase):
         """
         Test a machine play.
         """
+        print("\nStart test_machine_play test\n")
+        print("Testing a machine regular play.\n")
+
+
+
         humanNumber = "0123"
 
         machinePlay(humanNumber)
@@ -14,6 +19,9 @@ class TestMachinePlay(unittest.TestCase):
         """
         Test a machine play.
         """
+
+        print("Testing a second machine play.\n")
+
         humanNumber = 4567
 
         machinePlay(humanNumber)
@@ -21,6 +29,11 @@ class TestMachinePlay(unittest.TestCase):
         """
         Test a machine play.
         """
+        print("Testing a third machine play.\n")
+
         humanNumber = 1098
 
         machinePlay(humanNumber)
+
+        print("\nFinish test_machine_play test\n")
+        print("---------------------------\n")
